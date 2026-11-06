@@ -1,0 +1,9 @@
+model,description,loro_correct,loro_n,loro_acc,ci95_lo,ci95_hi,loro_round_mean,loro_round_sd,rep5x10_mean,rep5x10_sd
+T1_textbook,T1 textbook threshold (z-RMS + FFT peak),80,80,1.0,0.9549359649323077,1.0,1.0,0.0,1.0,0.0
+T2_physics,T2 physics threshold (comb SNR + f0),80,80,1.0,0.9549359649323077,1.0,1.0,0.0,1.0,0.0
+kNN_clean,"kNN, trained on clean data",79,80,0.9875,0.9323122155360776,0.9996835774723672,0.9875,0.054486236794258416,0.9900000000000002,0.004999999999999982
+kNN_aug,"kNN, noise-augmented training",80,80,1.0,0.9549359649323077,1.0,1.0,0.0,0.9975000000000002,0.004999999999999982
+LR_clean,"LogReg, trained on clean data",78,80,0.975,0.9125928440694077,0.9969579138351904,0.975,0.075,0.9675,0.02692582403567252
+LR_aug,"LogReg, noise-augmented training",78,80,0.975,0.9125928440694077,0.9969579138351904,0.975,0.075,0.9774999999999998,0.005000000000000026
+HLR_clean,"2-stage LogReg, trained on clean data",80,80,1.0,0.9549359649323077,1.0,1.0,0.0,1.0,0.0
+HLR_aug,"2-stage LogReg, noise-augmented training (FINAL)",80,80,1.0,0.9549359649323077,1.0,1.0,0.0,1.0,0.0

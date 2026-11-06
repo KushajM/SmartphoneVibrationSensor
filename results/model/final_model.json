@@ -1,0 +1,96 @@
+{
+ "model": "two-stage logistic regression (detect fan, then estimate speed), trained on real + calibrated noise-augmented trials",
+ "classes": [
+  "off",
+  "speed1",
+  "speed2",
+  "speed3"
+ ],
+ "stage_a": {
+  "features": [
+   "n_harm"
+  ],
+  "scaler_mean": [
+   1.6975
+  ],
+  "scaler_scale": [
+   1.1983295665216644
+  ],
+  "coef": [
+   [
+    4.646841621857072
+   ]
+  ],
+  "intercept": [
+   4.300216383336889
+  ],
+  "classes": [
+   0,
+   1
+  ]
+ },
+ "stage_b": {
+  "features": [
+   "f0"
+  ],
+  "scaler_mean": [
+   34.43837339703411
+  ],
+  "scaler_scale": [
+   1.8896729166992352
+  ],
+  "coef": [
+   [
+    -5.099726864541341
+   ],
+   [
+    -0.1322806171800819
+   ],
+   [
+    5.232007481721425
+   ]
+  ],
+  "intercept": [
+   -0.8809071572705792,
+   2.079718677382475,
+   -1.198811520111909
+  ],
+  "classes": [
+   1,
+   2,
+   3
+  ]
+ },
+ "preprocessing": {
+  "fs": 400.0,
+  "trim_s": 5.0,
+  "hp_order": 4,
+  "hp_fc": 2.0
+ },
+ "pipeline": {
+  "fs": 400.0,
+  "trim_s": 5.0,
+  "sinc_half": 16,
+  "sinc_beta": 8.0,
+  "hp_order": 4,
+  "hp_fc": 2.0,
+  "hampel_half": 5,
+  "hampel_nsig": 6.0,
+  "rob_nperseg": 512,
+  "floor_halfwidth_hz": 10.0,
+  "f0_min": 28.0,
+  "f0_max": 42.0,
+  "f0_step": 0.02,
+  "f0_n": 700,
+  "k_max": 4,
+  "snr_cap_db": 30.0,
+  "strong_db": 6.0,
+  "mains_hz": 50.0,
+  "mains_mask_hw": 1.0
+ },
+ "t2_physics_rule": {
+  "comb_snr_on_db": 2.2844987824486185,
+  "f0_speed1_2_hz": 33.25222259974271,
+  "f0_speed2_3_hz": 35.52249548124119
+ }
+}

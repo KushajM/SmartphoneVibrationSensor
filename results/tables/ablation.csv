@@ -1,0 +1,21 @@
+component,test,variant,model,acc,sd
+Hampel despiking,salt_pepper @ 0.001,full front-end,T2_physics,1.0,0.0
+Hampel despiking,salt_pepper @ 0.001,full front-end,HLR_clean,1.0,0.0
+Hampel despiking,salt_pepper @ 0.001,without Hampel despiking,T2_physics,0.325,0.02500000000000001
+Hampel despiking,salt_pepper @ 0.001,without Hampel despiking,HLR_clean,0.2575,0.010000000000000009
+median-averaged Welch,knocks @ 1,full front-end,T2_physics,0.9625,0.013693063937629145
+median-averaged Welch,knocks @ 1,full front-end,HLR_clean,0.4725,0.04568916720624268
+median-averaged Welch,knocks @ 1,without median-averaged Welch,T2_physics,0.6799999999999999,0.0551135192126215
+median-averaged Welch,knocks @ 1,without median-averaged Welch,HLR_clean,0.45249999999999996,0.04636809247747851
+mains-band mask,mains_hum @ 4,full front-end,T2_physics,1.0,0.0
+mains-band mask,mains_hum @ 4,full front-end,HLR_clean,0.75,0.0
+mains-band mask,mains_hum @ 4,without mains-band mask,T2_physics,0.725,0.0
+mains-band mask,mains_hum @ 4,without mains-band mask,HLR_clean,0.75,0.0
+f0 prior 28-42 Hz,gaussian @ -10,full front-end,T2_physics,1.0,0.0
+f0 prior 28-42 Hz,gaussian @ -10,full front-end,HLR_clean,0.25,0.0
+f0 prior 28-42 Hz,gaussian @ -10,without f0 prior 28-42 Hz,T2_physics,0.2925,0.021794494717703363
+f0 prior 28-42 Hz,gaussian @ -10,without f0 prior 28-42 Hz,HLR_clean,0.25,0.0
+3-axis PSD sum,orientation @ 90,full front-end,T2_physics,1.0,0.0
+3-axis PSD sum,orientation @ 90,full front-end,HLR_clean,1.0,0.0
+3-axis PSD sum,orientation @ 90,without 3-axis PSD sum,T2_physics,0.925,0.03354101966249686
+3-axis PSD sum,orientation @ 90,without 3-axis PSD sum,HLR_clean,0.9875,0.011180339887498959

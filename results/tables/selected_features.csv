@@ -1,0 +1,28 @@
+model,features,folds,of
+T1_textbook,rms_z + fft_fdom_z,20,20
+T2_physics,comb_snr + f0,20,20
+kNN_clean,fft_fdom_vec,15,20
+kNN_clean,fft_fdom_z,4,20
+kNN_clean,welch_fdom,1,20
+kNN_aug,f0 + comb_snr,13,20
+kNN_aug,f0 + n_harm,4,20
+kNN_aug,f0 + line_snr,3,20
+LR_clean,rms_pc1 + fft_fdom_vec + fft_fdom_z,5,20
+LR_clean,fft_fdom_z + rms_vec + fft_fdom_vec,3,20
+LR_clean,rms_vec + fft_fdom_vec + fft_fdom_z,3,20
+LR_clean,rms_pc1 + fft_fdom_vec + rms_vec,2,20
+LR_clean,rms_vec + fft_fdom_vec,1,20
+LR_clean,comb_snr + rms_vec + band_ratio,1,20
+LR_clean,comb_snr + rms_vec + fft_fdom_vec,1,20
+LR_clean,rms_vec + fft_fdom_z + fft_fdom_vec,1,20
+LR_clean,rms_pc1 + welch_fdom + fft_fdom_vec,1,20
+LR_clean,comb_snr + rms_vec,1,20
+LR_clean,fft_fdom_z + rms_vec,1,20
+LR_aug,f0 + comb_snr,8,20
+LR_aug,f0 + comb_snr + line_snr,5,20
+LR_aug,f0 + comb_snr + n_harm,3,20
+LR_aug,f0 + line_snr + n_harm,2,20
+LR_aug,f0 + n_harm,2,20
+HLR_clean,band_ratio + f0,20,20
+HLR_aug,n_harm + f0,19,20
+HLR_aug,comb_snr + f0,1,20

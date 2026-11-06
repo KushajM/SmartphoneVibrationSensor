@@ -1,0 +1,246 @@
+model: two-stage logistic regression (detect fan, then estimate speed), trained on real + calibrated noise-augmented trials
+       stage A features ['n_harm'], stage B features ['f0']
+
+off_01.zip
+  -> OFF     | off 90.7%  speed1  2.1%  speed2  7.1%  speed3  0.0%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.7 dB)
+off_02.zip
+  -> OFF     | off 90.7%  speed1  0.0%  speed2  0.0%  speed3  9.3%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.0 dB)
+off_03.zip
+  -> OFF     | off 90.7%  speed1  9.0%  speed2  0.3%  speed3  0.0%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.2 dB)
+off_04.zip
+  -> OFF     | off 90.7%  speed1  0.0%  speed2  0.0%  speed3  9.3%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.0 dB)
+off_05.zip
+  -> OFF     | off 90.7%  speed1  0.0%  speed2  0.0%  speed3  9.3%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.3 dB)
+off_06.zip
+  -> OFF     | off 90.7%  speed1  0.0%  speed2  4.6%  speed3  4.6%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.2 dB)
+off_07.zip
+  -> OFF     | off 90.7%  speed1  9.3%  speed2  0.0%  speed3  0.0%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.1 dB)
+off_08.zip
+  -> OFF     | off 90.7%  speed1  1.6%  speed2  7.6%  speed3  0.1%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.1 dB)
+off_09.zip
+  -> OFF     | off 90.7%  speed1  3.7%  speed2  5.5%  speed3  0.0%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.3 dB)
+off_10.zip
+  -> OFF     | off 90.7%  speed1  0.0%  speed2  0.0%  speed3  9.2%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.2 dB)
+off_11.zip
+  -> OFF     | off 90.7%  speed1  0.0%  speed2  0.9%  speed3  8.4%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 0.8 dB)
+off_12.zip
+  -> OFF     | off 90.7%  speed1  6.9%  speed2  2.3%  speed3  0.0%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.2 dB)
+off_13.zip
+  -> OFF     | off 90.7%  speed1  0.0%  speed2  0.0%  speed3  9.2%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.1 dB)
+off_14.zip
+  -> OFF     | off 90.7%  speed1  0.0%  speed2  0.1%  speed3  9.1%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.2 dB)
+off_15.zip
+  -> OFF     | off 90.7%  speed1  0.0%  speed2  0.0%  speed3  9.2%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.8 dB)
+off_16.zip
+  -> OFF     | off 90.7%  speed1  6.6%  speed2  2.7%  speed3  0.0%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.1 dB)
+off_17.zip
+  -> OFF     | off 90.7%  speed1  9.3%  speed2  0.0%  speed3  0.0%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 0.9 dB)
+off_18.zip
+  -> OFF     | off 90.7%  speed1  9.2%  speed2  0.1%  speed3  0.0%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.4 dB)
+off_19.zip
+  -> OFF     | off 90.7%  speed1  9.2%  speed2  0.1%  speed3  0.0%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 0.8 dB)
+off_20.zip
+  -> OFF     | off 90.7%  speed1  0.3%  speed2  8.5%  speed3  0.5%
+     no fan harmonic >= 6 dB above the noise floor (comb SNR 1.1 dB)
+speed1_01.zip
+  -> SPEED1  | off  0.4%  speed1 92.5%  speed2  7.1%  speed3  0.0%
+     f0 = 32.33 Hz (1940 rpm if f0 = shaft rate), dominant line 97.0 Hz, harmonics >= 6 dB: 2, comb SNR 9.2 dB
+speed1_02.zip
+  -> SPEED1  | off  0.0%  speed1 95.7%  speed2  4.3%  speed3  0.0%
+     f0 = 32.13 Hz (1928 rpm if f0 = shaft rate), dominant line 96.4 Hz, harmonics >= 6 dB: 3, comb SNR 10.5 dB
+speed1_03.zip
+  -> SPEED1  | off 16.9%  speed1 79.8%  speed2  3.4%  speed3  0.0%
+     f0 = 32.11 Hz (1927 rpm if f0 = shaft rate), dominant line 96.3 Hz, harmonics >= 6 dB: 1, comb SNR 7.0 dB
+speed1_04.zip
+  -> SPEED1  | off  0.4%  speed1 95.7%  speed2  3.9%  speed3  0.0%
+     f0 = 32.09 Hz (1926 rpm if f0 = shaft rate), dominant line 96.3 Hz, harmonics >= 6 dB: 2, comb SNR 8.5 dB
+speed1_05.zip
+  -> SPEED1  | off  0.4%  speed1 95.3%  speed2  4.3%  speed3  0.0%
+     f0 = 32.13 Hz (1928 rpm if f0 = shaft rate), dominant line 96.4 Hz, harmonics >= 6 dB: 2, comb SNR 9.3 dB
+speed1_06.zip
+  -> SPEED1  | off  0.0%  speed1 97.1%  speed2  2.9%  speed3  0.0%
+     f0 = 31.98 Hz (1919 rpm if f0 = shaft rate), dominant line 95.9 Hz, harmonics >= 6 dB: 3, comb SNR 9.1 dB
+speed1_07.zip
+  -> SPEED1  | off  0.0%  speed1 97.3%  speed2  2.7%  speed3  0.0%
+     f0 = 31.95 Hz (1917 rpm if f0 = shaft rate), dominant line 95.8 Hz, harmonics >= 6 dB: 3, comb SNR 10.8 dB
+speed1_08.zip
+  -> SPEED1  | off  0.4%  speed1 93.3%  speed2  6.3%  speed3  0.0%
+     f0 = 32.28 Hz (1937 rpm if f0 = shaft rate), dominant line 96.9 Hz, harmonics >= 6 dB: 2, comb SNR 8.6 dB
+speed1_09.zip
+  -> SPEED1  | off  0.4%  speed1 95.6%  speed2  4.0%  speed3  0.0%
+     f0 = 32.10 Hz (1926 rpm if f0 = shaft rate), dominant line 96.3 Hz, harmonics >= 6 dB: 2, comb SNR 8.8 dB
+speed1_10.zip
+  -> SPEED1  | off  0.4%  speed1 95.4%  speed2  4.2%  speed3  0.0%
+     f0 = 32.13 Hz (1928 rpm if f0 = shaft rate), dominant line 96.4 Hz, harmonics >= 6 dB: 2, comb SNR 8.7 dB
+speed1_11.zip
+  -> SPEED1  | off  0.4%  speed1 94.9%  speed2  4.7%  speed3  0.0%
+     f0 = 32.17 Hz (1930 rpm if f0 = shaft rate), dominant line 96.5 Hz, harmonics >= 6 dB: 2, comb SNR 9.9 dB
+speed1_12.zip
+  -> SPEED1  | off 16.9%  speed1 81.6%  speed2  1.5%  speed3  0.0%
+     f0 = 31.79 Hz (1908 rpm if f0 = shaft rate), dominant line 95.4 Hz, harmonics >= 6 dB: 1, comb SNR 8.2 dB
+speed1_13.zip
+  -> SPEED1  | off  0.4%  speed1 94.2%  speed2  5.3%  speed3  0.0%
+     f0 = 32.22 Hz (1933 rpm if f0 = shaft rate), dominant line 96.7 Hz, harmonics >= 6 dB: 2, comb SNR 9.3 dB
+speed1_14.zip
+  -> SPEED1  | off  0.4%  speed1 95.3%  speed2  4.2%  speed3  0.0%
+     f0 = 32.13 Hz (1928 rpm if f0 = shaft rate), dominant line 96.4 Hz, harmonics >= 6 dB: 2, comb SNR 9.5 dB
+speed1_15.zip
+  -> SPEED1  | off  0.4%  speed1 97.0%  speed2  2.6%  speed3  0.0%
+     f0 = 31.93 Hz (1916 rpm if f0 = shaft rate), dominant line 95.8 Hz, harmonics >= 6 dB: 2, comb SNR 8.5 dB
+speed1_16.zip
+  -> SPEED1  | off  0.4%  speed1 94.8%  speed2  4.8%  speed3  0.0%
+     f0 = 32.18 Hz (1931 rpm if f0 = shaft rate), dominant line 96.5 Hz, harmonics >= 6 dB: 2, comb SNR 8.6 dB
+speed1_17.zip
+  -> SPEED1  | off  0.4%  speed1 94.2%  speed2  5.4%  speed3  0.0%
+     f0 = 32.23 Hz (1934 rpm if f0 = shaft rate), dominant line 96.7 Hz, harmonics >= 6 dB: 2, comb SNR 8.8 dB
+speed1_18.zip
+  -> SPEED1  | off  0.4%  speed1 93.8%  speed2  5.8%  speed3  0.0%
+     f0 = 32.25 Hz (1935 rpm if f0 = shaft rate), dominant line 96.8 Hz, harmonics >= 6 dB: 2, comb SNR 8.6 dB
+speed1_19.zip
+  -> SPEED1  | off  0.4%  speed1 94.9%  speed2  4.7%  speed3  0.0%
+     f0 = 32.17 Hz (1930 rpm if f0 = shaft rate), dominant line 96.5 Hz, harmonics >= 6 dB: 2, comb SNR 8.6 dB
+speed1_20.zip
+  -> SPEED1  | off 16.9%  speed1 82.2%  speed2  0.9%  speed3  0.0%
+     f0 = 31.61 Hz (1896 rpm if f0 = shaft rate), dominant line 94.8 Hz, harmonics >= 6 dB: 1, comb SNR 7.9 dB
+speed2_01.zip
+  -> SPEED2  | off  0.0%  speed1  5.1%  speed2 91.7%  speed3  3.2%
+     f0 = 34.41 Hz (2065 rpm if f0 = shaft rate), dominant line 103.2 Hz, harmonics >= 6 dB: 3, comb SNR 9.8 dB
+speed2_02.zip
+  -> SPEED2  | off  0.0%  speed1  1.4%  speed2 87.2%  speed3 11.4%
+     f0 = 34.88 Hz (2093 rpm if f0 = shaft rate), dominant line 104.6 Hz, harmonics >= 6 dB: 3, comb SNR 10.9 dB
+speed2_03.zip
+  -> SPEED2  | off  0.0%  speed1  3.9%  speed2 91.8%  speed3  4.3%
+     f0 = 34.51 Hz (2071 rpm if f0 = shaft rate), dominant line 103.5 Hz, harmonics >= 6 dB: 3, comb SNR 10.7 dB
+speed2_04.zip
+  -> SPEED2  | off  0.0%  speed1  4.9%  speed2 91.8%  speed3  3.4%
+     f0 = 34.43 Hz (2066 rpm if f0 = shaft rate), dominant line 103.3 Hz, harmonics >= 6 dB: 3, comb SNR 11.4 dB
+speed2_05.zip
+  -> SPEED2  | off  0.0%  speed1  7.8%  speed2 90.3%  speed3  2.0%
+     f0 = 34.24 Hz (2055 rpm if f0 = shaft rate), dominant line 102.7 Hz, harmonics >= 6 dB: 3, comb SNR 10.5 dB
+speed2_06.zip
+  -> SPEED2  | off  0.0%  speed1  2.2%  speed2 90.1%  speed3  7.8%
+     f0 = 34.73 Hz (2084 rpm if f0 = shaft rate), dominant line 104.2 Hz, harmonics >= 6 dB: 3, comb SNR 11.2 dB
+speed2_07.zip
+  -> SPEED2  | off  0.0%  speed1  2.0%  speed2 89.7%  speed3  8.3%
+     f0 = 34.75 Hz (2085 rpm if f0 = shaft rate), dominant line 104.3 Hz, harmonics >= 6 dB: 3, comb SNR 11.3 dB
+speed2_08.zip
+  -> SPEED2  | off  0.0%  speed1  5.8%  speed2 91.4%  speed3  2.8%
+     f0 = 34.36 Hz (2062 rpm if f0 = shaft rate), dominant line 103.1 Hz, harmonics >= 6 dB: 3, comb SNR 11.0 dB
+speed2_09.zip
+  -> SPEED2  | off  0.0%  speed1  4.2%  speed2 91.8%  speed3  4.0%
+     f0 = 34.49 Hz (2069 rpm if f0 = shaft rate), dominant line 103.5 Hz, harmonics >= 6 dB: 3, comb SNR 11.0 dB
+speed2_10.zip
+  -> SPEED2  | off  0.0%  speed1  4.4%  speed2 91.8%  speed3  3.8%
+     f0 = 34.47 Hz (2068 rpm if f0 = shaft rate), dominant line 103.4 Hz, harmonics >= 6 dB: 3, comb SNR 11.0 dB
+speed2_11.zip
+  -> SPEED2  | off  0.0%  speed1  9.3%  speed2 89.1%  speed3  1.6%
+     f0 = 34.17 Hz (2050 rpm if f0 = shaft rate), dominant line 102.5 Hz, harmonics >= 6 dB: 3, comb SNR 10.3 dB
+speed2_12.zip
+  -> SPEED2  | off  0.0%  speed1  3.1%  speed2 91.5%  speed3  5.4%
+     f0 = 34.59 Hz (2076 rpm if f0 = shaft rate), dominant line 103.8 Hz, harmonics >= 6 dB: 3, comb SNR 11.2 dB
+speed2_13.zip
+  -> SPEED2  | off  0.0%  speed1  4.0%  speed2 91.8%  speed3  4.1%
+     f0 = 34.50 Hz (2070 rpm if f0 = shaft rate), dominant line 103.5 Hz, harmonics >= 6 dB: 3, comb SNR 11.0 dB
+speed2_14.zip
+  -> SPEED2  | off  0.0%  speed1  3.6%  speed2 91.7%  speed3  4.6%
+     f0 = 34.54 Hz (2073 rpm if f0 = shaft rate), dominant line 103.6 Hz, harmonics >= 6 dB: 3, comb SNR 11.7 dB
+speed2_15.zip
+  -> SPEED2  | off  0.0%  speed1  8.3%  speed2 89.9%  speed3  1.8%
+     f0 = 34.22 Hz (2053 rpm if f0 = shaft rate), dominant line 102.7 Hz, harmonics >= 6 dB: 3, comb SNR 10.3 dB
+speed2_16.zip
+  -> SPEED2  | off  0.0%  speed1  3.2%  speed2 91.5%  speed3  5.3%
+     f0 = 34.59 Hz (2075 rpm if f0 = shaft rate), dominant line 103.8 Hz, harmonics >= 6 dB: 3, comb SNR 10.3 dB
+speed2_17.zip
+  -> SPEED2  | off  0.0%  speed1  1.8%  speed2 88.8%  speed3  9.4%
+     f0 = 34.80 Hz (2088 rpm if f0 = shaft rate), dominant line 104.4 Hz, harmonics >= 6 dB: 4, comb SNR 12.5 dB
+speed2_18.zip
+  -> SPEED2  | off  0.0%  speed1  2.6%  speed2 90.9%  speed3  6.5%
+     f0 = 34.66 Hz (2080 rpm if f0 = shaft rate), dominant line 104.0 Hz, harmonics >= 6 dB: 3, comb SNR 11.6 dB
+speed2_19.zip
+  -> SPEED2  | off  0.0%  speed1  2.2%  speed2 90.2%  speed3  7.6%
+     f0 = 34.72 Hz (2083 rpm if f0 = shaft rate), dominant line 104.2 Hz, harmonics >= 6 dB: 3, comb SNR 11.4 dB
+speed2_20.zip
+  -> SPEED2  | off  0.0%  speed1  3.0%  speed2 91.4%  speed3  5.6%
+     f0 = 34.61 Hz (2077 rpm if f0 = shaft rate), dominant line 103.8 Hz, harmonics >= 6 dB: 3, comb SNR 11.0 dB
+speed3_01.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2  5.7%  speed3 94.3%
+     f0 = 36.58 Hz (2195 rpm if f0 = shaft rate), dominant line 109.7 Hz, harmonics >= 6 dB: 3, comb SNR 10.7 dB
+speed3_02.zip
+  -> SPEED3  | off  0.4%  speed1  0.0%  speed2  0.9%  speed3 98.6%
+     f0 = 37.23 Hz (2234 rpm if f0 = shaft rate), dominant line 111.7 Hz, harmonics >= 6 dB: 2, comb SNR 13.9 dB
+speed3_03.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2  3.5%  speed3 96.5%
+     f0 = 36.76 Hz (2206 rpm if f0 = shaft rate), dominant line 110.3 Hz, harmonics >= 6 dB: 3, comb SNR 12.3 dB
+speed3_04.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2 16.3%  speed3 83.6%
+     f0 = 36.17 Hz (2170 rpm if f0 = shaft rate), dominant line 108.5 Hz, harmonics >= 6 dB: 3, comb SNR 12.8 dB
+speed3_05.zip
+  -> SPEED3  | off  0.4%  speed1  0.0%  speed2  1.9%  speed3 97.7%
+     f0 = 36.99 Hz (2219 rpm if f0 = shaft rate), dominant line 111.0 Hz, harmonics >= 6 dB: 2, comb SNR 12.7 dB
+speed3_06.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2  8.5%  speed3 91.5%
+     f0 = 36.43 Hz (2186 rpm if f0 = shaft rate), dominant line 109.3 Hz, harmonics >= 6 dB: 3, comb SNR 12.5 dB
+speed3_07.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2  3.0%  speed3 97.0%
+     f0 = 36.81 Hz (2209 rpm if f0 = shaft rate), dominant line 110.4 Hz, harmonics >= 6 dB: 3, comb SNR 11.9 dB
+speed3_08.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2  4.4%  speed3 95.6%
+     f0 = 36.68 Hz (2201 rpm if f0 = shaft rate), dominant line 110.0 Hz, harmonics >= 6 dB: 4, comb SNR 13.2 dB
+speed3_09.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2  5.2%  speed3 94.8%
+     f0 = 36.62 Hz (2197 rpm if f0 = shaft rate), dominant line 109.9 Hz, harmonics >= 6 dB: 3, comb SNR 12.5 dB
+speed3_10.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2  7.2%  speed3 92.8%
+     f0 = 36.50 Hz (2190 rpm if f0 = shaft rate), dominant line 109.5 Hz, harmonics >= 6 dB: 3, comb SNR 12.5 dB
+speed3_11.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2  2.9%  speed3 97.1%
+     f0 = 36.83 Hz (2210 rpm if f0 = shaft rate), dominant line 110.5 Hz, harmonics >= 6 dB: 3, comb SNR 12.4 dB
+speed3_12.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2  7.2%  speed3 92.8%
+     f0 = 36.49 Hz (2190 rpm if f0 = shaft rate), dominant line 109.5 Hz, harmonics >= 6 dB: 3, comb SNR 12.5 dB
+speed3_13.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2  8.6%  speed3 91.4%
+     f0 = 36.42 Hz (2185 rpm if f0 = shaft rate), dominant line 109.3 Hz, harmonics >= 6 dB: 3, comb SNR 11.9 dB
+speed3_14.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2  3.2%  speed3 96.8%
+     f0 = 36.80 Hz (2208 rpm if f0 = shaft rate), dominant line 110.4 Hz, harmonics >= 6 dB: 3, comb SNR 13.2 dB
+speed3_15.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2  5.7%  speed3 94.3%
+     f0 = 36.58 Hz (2195 rpm if f0 = shaft rate), dominant line 109.7 Hz, harmonics >= 6 dB: 4, comb SNR 12.5 dB
+speed3_16.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2  3.0%  speed3 97.0%
+     f0 = 36.82 Hz (2209 rpm if f0 = shaft rate), dominant line 110.4 Hz, harmonics >= 6 dB: 3, comb SNR 11.3 dB
+speed3_17.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2  3.2%  speed3 96.8%
+     f0 = 36.80 Hz (2208 rpm if f0 = shaft rate), dominant line 110.4 Hz, harmonics >= 6 dB: 3, comb SNR 12.4 dB
+speed3_18.zip
+  -> SPEED3  | off  0.4%  speed1  0.0%  speed2  1.9%  speed3 97.7%
+     f0 = 36.99 Hz (2219 rpm if f0 = shaft rate), dominant line 111.0 Hz, harmonics >= 6 dB: 2, comb SNR 13.1 dB
+speed3_19.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2  2.4%  speed3 97.6%
+     f0 = 36.90 Hz (2214 rpm if f0 = shaft rate), dominant line 110.7 Hz, harmonics >= 6 dB: 3, comb SNR 12.4 dB
+speed3_20.zip
+  -> SPEED3  | off  0.0%  speed1  0.0%  speed2  9.8%  speed3 90.2%
+     f0 = 36.37 Hz (2182 rpm if f0 = shaft rate), dominant line 109.1 Hz, harmonics >= 6 dB: 4, comb SNR 12.3 dB
+
+80/80 correct; confidence of predicted class: mean 92.3% +- 3.6%, min 79.8%
+table written to results/tables/demo_predictions.csv

@@ -1,0 +1,129 @@
+config,model,test,acc,sd
+"all features, mean accuracy",HLR_aug,clean @ 0,1.0,0.0
+"all features, mean accuracy",HLR_aug,gaussian @ -10,0.9312499999999999,0.04375000000000001
+"all features, mean accuracy",HLR_aug,gaussian @ -15,0.32499999999999996,0.024999999999999994
+"all features, mean accuracy",HLR_aug,jn_proofmass @ 30,0.50625,0.006249999999999978
+"all features, mean accuracy",HLR_aug,lower_fs @ 200,0.5625,0.012499999999999956
+"all features, mean accuracy",HLR_aug,quantize @ 0.019,1.0,0.0
+"all features, mean accuracy",HLR_aug,appliance @ 0.3,0.75,0.0
+"all features, mean accuracy",HLR_aug,coupling @ 0.15,0.83125,0.006250000000000033
+"all features, mean accuracy",HLR_aug,knocks @ 1,0.95,0.0
+"all features, mean accuracy",HLR_aug,footsteps @ 0.3,0.9312499999999999,0.01874999999999999
+"all features, mean accuracy",HLR_aug,salt_pepper @ 0.01,1.0,0.0
+"all features, mean accuracy",HLR_aug,speckle @ 1,1.0,0.0
+"all features, mean accuracy",HLR_aug,dropouts @ 30,1.0,0.0
+"all features, mean accuracy",HLR_aug,popcorn @ 0.1,0.99375,0.006249999999999978
+"all features, mean accuracy",HLR_aug,mix_same_day @ 2,0.9875,0.012500000000000011
+"all features, mean accuracy",HLR_aug,mix_other_phone @ 1,0.6875,0.012499999999999956
+"all features, mean accuracy",kNN_aug,clean @ 0,0.99375,0.006249999999999978
+"all features, mean accuracy",kNN_aug,gaussian @ -10,0.8875,0.012500000000000011
+"all features, mean accuracy",kNN_aug,gaussian @ -15,0.39375,0.03125
+"all features, mean accuracy",kNN_aug,jn_proofmass @ 30,0.65,0.08750000000000002
+"all features, mean accuracy",kNN_aug,lower_fs @ 200,0.26875000000000004,0.0062500000000000056
+"all features, mean accuracy",kNN_aug,quantize @ 0.019,1.0,0.0
+"all features, mean accuracy",kNN_aug,appliance @ 0.3,0.75625,0.006249999999999978
+"all features, mean accuracy",kNN_aug,coupling @ 0.15,0.8875,0.0
+"all features, mean accuracy",kNN_aug,knocks @ 1,0.78125,0.006249999999999978
+"all features, mean accuracy",kNN_aug,footsteps @ 0.3,0.49375,0.0062500000000000056
+"all features, mean accuracy",kNN_aug,salt_pepper @ 0.01,1.0,0.0
+"all features, mean accuracy",kNN_aug,speckle @ 1,0.95625,0.03125
+"all features, mean accuracy",kNN_aug,dropouts @ 30,1.0,0.0
+"all features, mean accuracy",kNN_aug,popcorn @ 0.1,0.8,0.07500000000000001
+"all features, mean accuracy",kNN_aug,mix_same_day @ 2,0.975,0.0
+"all features, mean accuracy",kNN_aug,mix_other_phone @ 1,0.68125,0.03125
+"all features, worst-group",HLR_aug,clean @ 0,1.0,0.0
+"all features, worst-group",HLR_aug,gaussian @ -10,0.90625,0.018750000000000044
+"all features, worst-group",HLR_aug,gaussian @ -15,0.4,0.0
+"all features, worst-group",HLR_aug,jn_proofmass @ 30,0.49375,0.0062500000000000056
+"all features, worst-group",HLR_aug,lower_fs @ 200,0.5125,0.0
+"all features, worst-group",HLR_aug,quantize @ 0.019,0.99375,0.006249999999999978
+"all features, worst-group",HLR_aug,appliance @ 0.3,0.90625,0.006249999999999978
+"all features, worst-group",HLR_aug,coupling @ 0.15,0.78125,0.043749999999999956
+"all features, worst-group",HLR_aug,knocks @ 1,0.9437500000000001,0.01874999999999999
+"all features, worst-group",HLR_aug,footsteps @ 0.3,0.9125,0.03749999999999998
+"all features, worst-group",HLR_aug,salt_pepper @ 0.01,1.0,0.0
+"all features, worst-group",HLR_aug,speckle @ 1,1.0,0.0
+"all features, worst-group",HLR_aug,dropouts @ 30,1.0,0.0
+"all features, worst-group",HLR_aug,popcorn @ 0.1,1.0,0.0
+"all features, worst-group",HLR_aug,mix_same_day @ 2,0.9875,0.012500000000000011
+"all features, worst-group",HLR_aug,mix_other_phone @ 1,0.69375,0.006249999999999978
+"all features, worst-group",kNN_aug,clean @ 0,0.99375,0.006249999999999978
+"all features, worst-group",kNN_aug,gaussian @ -10,0.85625,0.01874999999999999
+"all features, worst-group",kNN_aug,gaussian @ -15,0.4125,0.037500000000000006
+"all features, worst-group",kNN_aug,jn_proofmass @ 30,0.63125,0.05625000000000002
+"all features, worst-group",kNN_aug,lower_fs @ 200,0.8125,0.050000000000000044
+"all features, worst-group",kNN_aug,quantize @ 0.019,0.99375,0.006249999999999978
+"all features, worst-group",kNN_aug,appliance @ 0.3,0.75,0.0
+"all features, worst-group",kNN_aug,coupling @ 0.15,0.7625,0.024999999999999967
+"all features, worst-group",kNN_aug,knocks @ 1,0.95625,0.006250000000000033
+"all features, worst-group",kNN_aug,footsteps @ 0.3,0.95625,0.03125
+"all features, worst-group",kNN_aug,salt_pepper @ 0.01,0.9875,0.012500000000000011
+"all features, worst-group",kNN_aug,speckle @ 1,0.95625,0.03125
+"all features, worst-group",kNN_aug,dropouts @ 30,1.0,0.0
+"all features, worst-group",kNN_aug,popcorn @ 0.1,0.98125,0.01874999999999999
+"all features, worst-group",kNN_aug,mix_same_day @ 2,0.98125,0.01874999999999999
+"all features, worst-group",kNN_aug,mix_other_phone @ 1,0.7250000000000001,0.012500000000000011
+"invariant, mean accuracy",HLR_aug,clean @ 0,1.0,0.0
+"invariant, mean accuracy",HLR_aug,gaussian @ -10,0.925,0.04999999999999999
+"invariant, mean accuracy",HLR_aug,gaussian @ -15,0.32499999999999996,0.024999999999999994
+"invariant, mean accuracy",HLR_aug,jn_proofmass @ 30,0.5125,0.012500000000000011
+"invariant, mean accuracy",HLR_aug,lower_fs @ 200,0.5625,0.012499999999999956
+"invariant, mean accuracy",HLR_aug,quantize @ 0.019,1.0,0.0
+"invariant, mean accuracy",HLR_aug,appliance @ 0.3,0.75,0.0
+"invariant, mean accuracy",HLR_aug,coupling @ 0.15,0.83125,0.006250000000000033
+"invariant, mean accuracy",HLR_aug,knocks @ 1,0.96875,0.006249999999999978
+"invariant, mean accuracy",HLR_aug,footsteps @ 0.3,1.0,0.0
+"invariant, mean accuracy",HLR_aug,salt_pepper @ 0.01,1.0,0.0
+"invariant, mean accuracy",HLR_aug,speckle @ 1,1.0,0.0
+"invariant, mean accuracy",HLR_aug,dropouts @ 30,1.0,0.0
+"invariant, mean accuracy",HLR_aug,popcorn @ 0.1,1.0,0.0
+"invariant, mean accuracy",HLR_aug,mix_same_day @ 2,0.9875,0.012500000000000011
+"invariant, mean accuracy",HLR_aug,mix_other_phone @ 1,0.6875,0.012499999999999956
+"invariant, mean accuracy",kNN_aug,clean @ 0,0.99375,0.006249999999999978
+"invariant, mean accuracy",kNN_aug,gaussian @ -10,0.8500000000000001,0.04999999999999999
+"invariant, mean accuracy",kNN_aug,gaussian @ -15,0.38749999999999996,0.024999999999999994
+"invariant, mean accuracy",kNN_aug,jn_proofmass @ 30,0.60625,0.04375000000000001
+"invariant, mean accuracy",kNN_aug,lower_fs @ 200,0.2875,0.012499999999999983
+"invariant, mean accuracy",kNN_aug,quantize @ 0.019,0.99375,0.006249999999999978
+"invariant, mean accuracy",kNN_aug,appliance @ 0.3,0.75,0.0
+"invariant, mean accuracy",kNN_aug,coupling @ 0.15,0.8875,0.0
+"invariant, mean accuracy",kNN_aug,knocks @ 1,0.73125,0.06875000000000003
+"invariant, mean accuracy",kNN_aug,footsteps @ 0.3,0.5875,0.025000000000000022
+"invariant, mean accuracy",kNN_aug,salt_pepper @ 0.01,0.98125,0.006250000000000033
+"invariant, mean accuracy",kNN_aug,speckle @ 1,0.95625,0.03125
+"invariant, mean accuracy",kNN_aug,dropouts @ 30,1.0,0.0
+"invariant, mean accuracy",kNN_aug,popcorn @ 0.1,0.66875,0.09375
+"invariant, mean accuracy",kNN_aug,mix_same_day @ 2,0.975,0.0
+"invariant, mean accuracy",kNN_aug,mix_other_phone @ 1,0.68125,0.03125
+"invariant, worst-group (adopted)",HLR_aug,clean @ 0,1.0,0.0
+"invariant, worst-group (adopted)",HLR_aug,gaussian @ -10,0.9,0.025000000000000022
+"invariant, worst-group (adopted)",HLR_aug,gaussian @ -15,0.4,0.0
+"invariant, worst-group (adopted)",HLR_aug,jn_proofmass @ 30,0.5,0.012499999999999983
+"invariant, worst-group (adopted)",HLR_aug,lower_fs @ 200,0.5562499999999999,0.08124999999999999
+"invariant, worst-group (adopted)",HLR_aug,quantize @ 0.019,1.0,0.0
+"invariant, worst-group (adopted)",HLR_aug,appliance @ 0.3,0.8875,0.012500000000000011
+"invariant, worst-group (adopted)",HLR_aug,coupling @ 0.15,0.78125,0.043749999999999956
+"invariant, worst-group (adopted)",HLR_aug,knocks @ 1,0.95625,0.006250000000000033
+"invariant, worst-group (adopted)",HLR_aug,footsteps @ 0.3,1.0,0.0
+"invariant, worst-group (adopted)",HLR_aug,salt_pepper @ 0.01,1.0,0.0
+"invariant, worst-group (adopted)",HLR_aug,speckle @ 1,1.0,0.0
+"invariant, worst-group (adopted)",HLR_aug,dropouts @ 30,1.0,0.0
+"invariant, worst-group (adopted)",HLR_aug,popcorn @ 0.1,1.0,0.0
+"invariant, worst-group (adopted)",HLR_aug,mix_same_day @ 2,0.9875,0.012500000000000011
+"invariant, worst-group (adopted)",HLR_aug,mix_other_phone @ 1,0.69375,0.006249999999999978
+"invariant, worst-group (adopted)",kNN_aug,clean @ 0,0.99375,0.006249999999999978
+"invariant, worst-group (adopted)",kNN_aug,gaussian @ -10,0.85625,0.01874999999999999
+"invariant, worst-group (adopted)",kNN_aug,gaussian @ -15,0.4125,0.037500000000000006
+"invariant, worst-group (adopted)",kNN_aug,jn_proofmass @ 30,0.63125,0.05625000000000002
+"invariant, worst-group (adopted)",kNN_aug,lower_fs @ 200,0.8125,0.050000000000000044
+"invariant, worst-group (adopted)",kNN_aug,quantize @ 0.019,0.99375,0.006249999999999978
+"invariant, worst-group (adopted)",kNN_aug,appliance @ 0.3,0.75,0.0
+"invariant, worst-group (adopted)",kNN_aug,coupling @ 0.15,0.775,0.03749999999999998
+"invariant, worst-group (adopted)",kNN_aug,knocks @ 1,0.96875,0.006249999999999978
+"invariant, worst-group (adopted)",kNN_aug,footsteps @ 0.3,0.99375,0.006249999999999978
+"invariant, worst-group (adopted)",kNN_aug,salt_pepper @ 0.01,0.9875,0.012500000000000011
+"invariant, worst-group (adopted)",kNN_aug,speckle @ 1,0.96875,0.018750000000000044
+"invariant, worst-group (adopted)",kNN_aug,dropouts @ 30,1.0,0.0
+"invariant, worst-group (adopted)",kNN_aug,popcorn @ 0.1,1.0,0.0
+"invariant, worst-group (adopted)",kNN_aug,mix_same_day @ 2,0.98125,0.01874999999999999
+"invariant, worst-group (adopted)",kNN_aug,mix_other_phone @ 1,0.7250000000000001,0.012500000000000011
