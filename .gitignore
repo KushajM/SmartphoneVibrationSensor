@@ -1,7 +1,3 @@
 __pycache__/
 *.pyc
-results/cache/
-report/
-.claude/
-CLAUDE.md
 *.asv
